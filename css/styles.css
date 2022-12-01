@@ -4,17 +4,22 @@ body {
   background-size: 100%;
 }
 
+.paper-content {
+  margin: 0 auto;
+  width: 100%;
+  height: 50%;
+}
+
 .title {
   position: absolute;
   margin-left: 33%;
   margin-top: 20%;
-  width: 80%;
-  height: 50%;
   cursor: default;
   display: block;
   color: rgb(0, 0, 0);
   font-family: "Courier";
-  font-size: 50px;
+  font-size: 2vw;
+  text-size-adjust: auto;
   color: rgb(0, 0, 0);
   white-space: nowrap;
   overflow: hidden;
@@ -26,13 +31,96 @@ body {
   from { width: 0; } 
 }
 
-.paper-logo {
+.selling-point1 {
   position: absolute;
-  margin-left: 43%;
-  margin-top: 5%;
-  width: 200px;
+  margin-left: 33%;
+  margin-top: 40%;
   cursor: default;
   display: block;
+  color: rgb(0, 0, 0);
+  font-family: "Courier";
+  font-size: 1.5vw;
+  text-size-adjust: auto;
+  color: rgb(0, 0, 0);
+  width: 21em;
+}
+
+.selling-point2 {
+  position: absolute;
+  margin-left: 33%;
+  margin-top: 50%;
+  cursor: default;
+  display: block;
+  color: rgb(0, 0, 0);
+  font-family: "Courier";
+  font-size: 1.5vw;
+  text-size-adjust: auto;
+  color: rgb(0, 0, 0);
+  width: 21em;
+}
+
+.selling-point3 {
+  position: absolute;
+  margin-left: 33%;
+  margin-top: 60%;
+  cursor: default;
+  display: block;
+  color: rgb(0, 0, 0);
+  font-family: "Courier";
+  font-size: 1.5vw;
+  text-size-adjust: auto;
+  color: rgb(0, 0, 0);
+  width: 21em;
+}
+
+.selling-point4 {
+  position: absolute;
+  margin-left: 33%;
+  margin-top: 70%;
+  cursor: default;
+  display: block;
+  color: rgb(0, 0, 0);
+  font-family: "Courier";
+  font-size: 1.5vw;
+  text-size-adjust: auto;
+  color: rgb(0, 0, 0);
+  width: 21em;
+}
+
+.selling-point5 {
+  position: absolute;
+  margin-left: 33%;
+  margin-top: 80%;
+  cursor: default;
+  display: block;
+  color: rgb(0, 0, 0);
+  font-family: "Courier";
+  font-size: 1.5vw;
+  text-size-adjust: auto;
+  color: rgb(0, 0, 0);
+  width: 21em;
+}
+
+.paper-logo {
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 5%;
+  width: 9vw;
+  cursor: default;
+  display: block;
+}
+
+.discover {
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 95%;
+  width: 9vw;
+  cursor: default;
+  display: block;
+}
+
+.discover:hover {
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.150));
 }
 
 .topnav {
@@ -116,16 +204,6 @@ body {
   margin-left: 78%;
   margin-top: 3%;
   width: 200px;
-}
-
-.discover {
-  position: absolute;
-  margin-top: 237%;
-  margin-left: 38.5%;
-}
-
-.discover:hover {
-  filter: drop-shadow(9px 10px 5px rgba(0, 0, 0, 0.339));
 }
 
 .container2 {
