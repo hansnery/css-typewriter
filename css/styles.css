@@ -11,14 +11,15 @@ body {
 }
 
 .title {
+  
   position: absolute;
-  margin-left: 33%;
-  margin-top: 20%;
+  margin-left: 32.7%;
+  margin-top: 25%;
   cursor: default;
   display: block;
   color: rgb(0, 0, 0);
-  font-family: "Courier";
-  font-size: 2vw;
+  font-family: 'Special Elite', cursive;
+  font-size: 2.3vw;
   text-size-adjust: auto;
   color: rgb(0, 0, 0);
   white-space: nowrap;
@@ -33,88 +34,93 @@ body {
 
 .selling-point1 {
   position: absolute;
-  margin-left: 33%;
+  margin-left: 31.4%;
   margin-top: 40%;
   cursor: default;
   display: block;
   color: rgb(0, 0, 0);
-  font-family: "Courier";
+  font-family: 'Special Elite', cursive;
   font-size: 1.5vw;
   text-size-adjust: auto;
   color: rgb(0, 0, 0);
   width: 21em;
+  text-align: center;
 }
 
 .selling-point2 {
   position: absolute;
-  margin-left: 33%;
-  margin-top: 50%;
+  margin-left: 31.4%;
+  margin-top: 50%;  
   cursor: default;
   display: block;
   color: rgb(0, 0, 0);
-  font-family: "Courier";
+  font-family: 'Special Elite', cursive;
   font-size: 1.5vw;
   text-size-adjust: auto;
   color: rgb(0, 0, 0);
   width: 21em;
+  text-align: center;
 }
 
 .selling-point3 {
   position: absolute;
-  margin-left: 33%;
+  margin-left: 31.4%;
   margin-top: 60%;
   cursor: default;
   display: block;
   color: rgb(0, 0, 0);
-  font-family: "Courier";
+  font-family: 'Special Elite', cursive;
   font-size: 1.5vw;
   text-size-adjust: auto;
   color: rgb(0, 0, 0);
   width: 21em;
+  text-align: center;
 }
 
 .selling-point4 {
   position: absolute;
-  margin-left: 33%;
+  margin-left: 31.4%;
   margin-top: 70%;
   cursor: default;
   display: block;
   color: rgb(0, 0, 0);
-  font-family: "Courier";
+  font-family: 'Special Elite', cursive;
   font-size: 1.5vw;
   text-size-adjust: auto;
   color: rgb(0, 0, 0);
   width: 21em;
+  text-align: center;
 }
 
 .selling-point5 {
   position: absolute;
-  margin-left: 33%;
+  margin-left: 31.4%;
   margin-top: 80%;
   cursor: default;
   display: block;
   color: rgb(0, 0, 0);
-  font-family: "Courier";
+  font-family: 'Special Elite', cursive;
   font-size: 1.5vw;
   text-size-adjust: auto;
   color: rgb(0, 0, 0);
   width: 21em;
+  text-align: center;
 }
 
 .paper-logo {
   position: absolute;
-  margin-left: 42%;
+  margin-left: 39.5%;
   margin-top: 5%;
-  width: 9vw;
+  width: 15vw;
   cursor: default;
   display: block;
 }
 
 .discover {
   position: absolute;
-  margin-left: 42%;
+  margin-left: 37%;
   margin-top: 95%;
-  width: 9vw;
+  width: 20vw;
   cursor: default;
   display: block;
 }
@@ -158,39 +164,14 @@ body {
   cursor: default;
 }
 
-.topnav2 {
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.317);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.441);
-  filter: drop-shadow(1px 1px 1px);
-}
 
-.topnav2 a {
-  float: right;
-  color: #f2f2f2;
-  padding: 25px 20px;
-  text-decoration: none;
+.footer p {
+  text-align: center;
+  color: #7d7d7d;
   font-size: 18px;
   font-family: 'Special Elite', cursive;
 }
 
-.topnav2 a:hover {
-  background-color: rgb(91, 91, 91);
-  color: black;
-}
-
-.text2 a {
-  font-family: 'Special Elite', cursive;
-  float: left;
-  color: rgba(255, 255, 255, 0.217);
-  font-size: 18px;
-}
-
-.text2 a:hover {
-  background-color: rgba(0, 0, 0, 0.317);
-  color: rgba(255, 255, 255, 0.217);
-  cursor: default;
-}
 
 .logo {
   position: absolute;
@@ -212,9 +193,199 @@ body {
 
 .rec3 {
   margin-left: 50%;
+  width: 50%;
 }
 
 .column {
   float: left;
-  width: 25%;
+  width: 33.3%;
+  margin-top: 100px;
 }
+
+.future{
+   animation: fadeIn 10s; 
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.description{
+  position: absolute;
+  margin-left: -2%;
+  margin-top: 5%;
+  cursor: default;
+  display: block;
+  color: rgb(0, 0, 0);
+  font-family: 'Special Elite', cursive;
+  font-size: 4vw;
+  text-size-adjust: auto;
+  width: 15em;
+  text-align: center;
+}
+
+.t1{
+  position: absolute;
+  margin-left: 5.5%;
+  margin-top: 17%;
+  cursor: default;
+  display: block;
+  color: rgb(58, 58, 58);
+  font-family: 'Special Elite', cursive;
+  font-size: 1.8vw;
+  text-size-adjust: auto;
+  width: 25em;
+  text-align: center;
+
+}
+
+.details1{
+  margin-left: 13%;
+  margin-top: 5%;
+  width: 70%;
+}
+
+.detailstext{
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.8vw;
+  margin-left: 18%;
+}
+
+.detailstext2{
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.8vw;
+  text-align: center;
+  margin-left: 1%;
+}
+
+.detailstext3{
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.8vw;
+  margin-left: 29%;
+  margin-top: 3%;
+}
+
+
+
+.column2{
+float: right;
+width: 50%;
+}
+
+.details2{
+  width: 90%;
+  margin-left: -48%;
+  margin-top: 10%;
+}
+
+.detailstext4{
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 2.5vw;
+  margin-left: -22%;
+  margin-top: 5%;
+}
+
+.detailstext5{
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 2vw;
+  margin-left: -66%;
+  margin-top: 1%;
+}
+
+.rec7{
+  margin-top: -40px;
+}
+
+.container6{
+background-color: #ffffff;
+padding-top: 1%;
+margin-top: -1%;
+}
+.typecolors1{
+  margin-left: 3%;
+  width: 42%;
+}
+.typecolors2{
+  margin-left: 5%;
+  width: 40%;
+}
+.typecolors3{
+  margin-left: 6%;
+  width: 40%;
+  padding-bottom: 2%;
+}
+.typecolors4{
+  margin-left: 6%;
+  width: 43%; 
+  padding-bottom: 2%;
+  
+}
+
+h2{
+  font-family: 'Special Elite', cursive;
+  font-size: 2.5vw;
+  margin-left: 7.5%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.container7 p {
+  margin-left: 13%;
+  margin-top: 7%;
+  cursor: default;
+  font-family: 'Special Elite', cursive;
+  font-size: 3vw;
+  color: white;
+  width: 25em;
+  text-align: center;
+}
+
+.container7img{
+  margin-left: 39.5%;
+  width: 20%;
+  margin-bottom: 4%;
+}
+
+.paper-image {
+  position: absolute;
+  margin-left: 39%;
+  margin-top: 26%;
+  width: 15vw;
+  cursor: default;
+  display: block;
+}
+
+
+.about-point {
+  border-radius: 4%;
+  padding: 5%;
+  background-color: #cf9b7122;
+  position: absolute;
+  margin-left: 53%;
+  margin-top: 5%;
+  cursor: default;
+  display: block;
+  color: rgb(0, 0, 0);
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5vw;
+  text-size-adjust: auto;
+  color: rgb(255, 255, 255);
+  width: 21em;
+  text-align: center;
+}
+
+.discover-button{
+  width: 15%;
+  margin-left: 67%;
+  margin-top: 59%;
+  position: absolute;
+}
+
+
+
+
